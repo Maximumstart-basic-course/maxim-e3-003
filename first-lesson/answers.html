@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Answers</title>
+</head>
+<body>
+	<div class="faq">
+		<div class="pair">
+			<p class="question">Что такое EcmaScript?</p>
+			<p class="answer">EcmaScript - встраиваемый расширяемыый не имеющий средств ввода-вывода язык программирования, используемый в качестве основы для построения других скриптовых языков.</p>
+		</div>
+	</div>
+	<div class="faq">
+		<div class="pair">
+			<p class="question">Для чего используются и чем отличаются атрибуты async и defer?</p>
+			<p class="answer">Данные атрибуты используются для сопряжения загрузки страницы и скриптов. Async позволяет загружать скрипт в фоновом режиме без блокировки загрузки основного контента. Скрипт выполнится, когда будет загружен. Defer работает так же, но скрипт выполнен после полной загрузки страницы, и, к тому же, сохранится очередность выполнения.</p>
+		</div>
+	</div>
+	<div class="faq">
+		<div class="pair">
+			<p class="question">Почему предпочтительнее подключать скрипты перед body, а не в head?</p>
+			<p class="answer">Таким образом, скрипт загружается быстрее.</p>
+		</div>
+	</div>
+	<div class="faq">
+		<div class="pair">
+			<p class="question">Какие основные отличия интерпретируемого языка программирования от компилируемого?</p>
+			<p class="answer">Компилируемый язык программирования подразумевает преобразование программного кода в машинный, чем занимается специальная программа-компиллятор. В интерпретируемом языке программирования используется программа-интерпретатор, время преобразования кода которой занимает значительно больше времени.</p>
+		</div>
+	</div>
+	<div class="faq">
+		<div class="pair">
+			<p class="question">Что такое языки высокого и низкого уровня? Какие ты знаешь?</p>
+			<p class="answer">Язык высокого уровня - это язык программирования, подразумевающий введение смысловых конструкций, описание которых на машинном коде очень длинны и сложны для понимания. К таким языкам относятся С, С++, Delphi, Java, JavScript, PHP, Pascal. Язык низкого уровня является близким к форме, которую компьютер понимает непосредственно, т.е., к машинному коду. К ним относится Assembler.</p>
+		</div>
+	</div>
+	<div class="faq">
+		<div class="pair">
+			<p class="question">Для чего используются переменные? Какие ключевые слова используются для создания переменных? Какие есть отличия в переопределении значений при задании переменной через let, const и var?</p>
+			<p class="answer">Переменные используются для записи значения с целью дальнейшего использования. Для создания переменных используются ключевые слова var, let и const. Const используется в тех случаях, когда значение переменной не будет изменяться. Var и let применяют в обратном случае.</p>
+		</div>
+	</div>
+	<div class="faq">
+		<div class="pair">
+			<p class="question">Может ли имя переменной начинаться с цифры, символов _ или $?</p>
+			<p class="answer">Имя переменной может начинаться только с символа  $.</p>
+		</div>
+	</div>
+	<div class="faq">
+		<div class="pair">
+			<p class="question">Какие слова запрещено использовать в названии переменной?</p>
+			<p class="answer">В названии переменной запрещается использовать зарезервированные слова, а именно abstract, boolean, break, byte, case, catch, char, class, const, continue, debugger, default, delete, do, double, else, enum, export, extends, false, final, finally, float, for, function, goto, if, implements, import, in, instanceof, int, inteface, long, native, new, null, package, private, protected, public, return, short, static, super, switch, synchronized, this, throw, throws, transient, true, try, typeof, var, volatile, void, while, with.</p>
+		</div>
+	</div>
+	<div class="faq">
+		<div class="pair">
+			<p class="question">Что такое camelCase и snake_case?</p>
+			<p class="answer">camelCase - "верблюжья нотация", её пример - запись переменной как "borderLeftWidth". snake_case - стиль написания имени переменной с использованием нижнего подчеркивания.</p>
+		</div>
+	</div>
+	<div class="faq">
+		<div class="pair">
+			<p class="question">Что такое "типы данных"? Какой оператор позволяет определить тип данных?</p>
+			<p class="answer">Типы данных используются для возможности классификации всех используемых данных. Они разделяются на простые и сложные. К простым относятся примитивные (число/number, строка/string, null, undefined, логические/boolean, символ/symbol) и сложные (массив/arrays, объект/object, функция/function). Тип данных позволяет определить оператор typeof.</p>
+		</div>
+	</div>
+	<div class="faq">
+		<div class="pair">
+			<p class="question">Что такое "динамическое приведение типов данных"? Можно ли писать JavaScript со статическим приведением типов?</p>
+			<p class="answer"></p>
+		</div>
+	</div>
+	<div class="faq">
+		<div class="pair">
+			<p class="question">Как привести строчное значение "10" к числу? Назовите два способа.</p>
+			<p class="answer">Привести строчное значение к числу можно, добавив перед строкой знак "+", можно также добавить "\n".</p>
+		</div>
+	</div>
+	<div class="faq">
+		<div class="pair">
+			<p class="question">Чем отличаются операторы "==" и "==="?</p>
+			<p class="answer">Оператор "==" используется при сравнении значений, но не типов данных. Оператор "===" - для сравнения значений и типов данных.</p>
+		</div>
+	</div>
+	<div class="faq">
+		<div class="pair">
+			<p class="question">Какие преимущества дают обратные кавычки (`) при указании строки?</p>
+			<p class="answer">Обратные кавычки позволяют переносить значение на другие строки.</p>
+		</div>
+	</div>
+	<div class="pair loops">
+		<p class="question">Что такое "алгоритм"? Какие ты знаешь типы алгоритмов?</p>
+		<p class="answer">Алгоритм - набор инструкций, описывающий порядок действий исполнителя для достижения некоторого результата. Алгоритмы бывают линейными, разветвленными и циклическими.</p>
+	</div>
+	<div class="pair loops">
+		<p class="question">Зачем нужны циклы? Какие виды циклов ты знаешь? В чем их основные отличия?</p>
+		<p class="answer">Циклы нужны в случае необходимости многократного повторения какого-либо действия. Циклы бывают: while (проверяет условие, и если оно приравнивается к true, то тело цикла выполняется), do...while (в нем сначала выполняется тело цикла, а потом проверяется соответствие условию), бесконечный цикл (infinite loop), цикл for (отличается компактностью).</p>
+	</div>
+	<div class="pair loops">
+		<p class="question">Что делают операторы ++i и i++ и в чем их отличие?</p>
+		<p class="answer">Данные операторы увеличивают i на единицу. Их отличие заключается в том, что i++, в отличие от i++, возвращает значение, которое было до увеличения.</p>
+	</div>
+	<div class="pair oops">
+		<p class="question">Что такое "итерация"?</p>
+		<p class="answer">Итерация - повторение цикла. </p>
+	</div>
+	<div class="pair loops">
+		<p class="question">Как называются и чем отличаются операторы || и &&?</p>
+		<p class="answer">|| (или) возвращает первую из двух переменных, если она может быть преобразована к true, в ином случае, возвращает вторую. && (и) возвращает первую из двух переменных, если она может быть преобразована к false, в ином случае, возвращает вторую.</p>
+	</div>
+	<div class="pair loops">
+		<p class="question">Для чего используется break? Почему в конструкции switch нужно использовать break для каждого case?</p>
+		<p class="answer">break завершает текущий цикл или конструкции switch. Если break нет, то выполнение цикла пойдет по последующим case, минуя остальные проверки.</p>
+	</div>
+	<div class="pair loops">
+		<p class="question">Почему при выполнении указанного кода возникают ошибки?
+// (1)
+
+const i = 0;
+
+while (i <= 10) {
+	console.log(i);
+}
+
+// (2)
+
+for (j = 0; j <= 10; j++); {
+	console.log(j);
+}
+
+// (3)
+
+const year = 1996;
+
+switch (year) {
+	case 1996: 
+	console.log('1996');
+
+	case 1997: 
+	console.log('1997');
+
+	case 1998: 
+	console.log('1998');
+
+	default: 
+	console.log('Year is undefined :(');
+}
+
+// (4)
+
+const number = prompt('What is the number?', '0'); // Ввели 1
+
+console.log(number + 10); // 110</p>
+		<p class="answer">4. number не приведен к числу 3. Отсутствует break, вследствие чего выполнение цикла пойдет по последующим case, минуя остальные проверки. 2. Убрать ";". 1. Не указан i++ </p>
+	</div>
+	<div class="pair functions">
+		<p class="question">Зачем нужны функции?</p>
+		<p class="answer">Функции нужны для избегания повторения одного и того же действия.</p>
+	</div>
+	<div class="pair functions">
+		<p class="question">Сколько параметров можно передать функции?</p>
+		<p class="answer">Любое количество параметров.</p>
+	</div>
+	<div class="pair functions">
+		<p class="question">Что случится, если передать в функцию меньше параметров, чем нужно? А если больше? Объясни на примере функции add(a, b).</p>
+		<p class="answer">Параметров можно передавать неограниченное количество.</p>
+	</div>
+	<div class="pair functions">
+		<p class="question">Возможно ли для параметра указать значение по умолчанию? Назови два способа?</p>
+		<p class="answer"></p>
+	</div>
+	<div class="pair functions">
+		<p class="question">Что такое область видимости?</p>
+		<p class="answer">Область видимости - часть контекста выполнения, в котором эта переменная существует.</p>
+	</div>
+	<div class="pair functions">
+		<p class="question">Чем отличается Function Declaration от Function Expression?</p>
+		<p class="answer">Function Declaration - функция, объявленная в основном потоке кода (function sum(a, b) {return a + b;}). Function Expression - объявление функции в контексте какого-либо выражения (var sum = function(a, b) {return a + b;}).</p>
+	</div>
+	<div class="pair functions">
+		<p class="question">Что такое замыкание?</p>
+		<p class="answer">Замыкание - комбинация функции и лексического окружения, в котором эта функция была определена.</p>
+	</div>
+	<div class="pair functions">
+		<p class="question">Далее указан полный код программы. Что мы увидим в консоли браузера? Почему? Что может вернуть функция makeNoize?
+		const makeNoize = function(message) {console.log(message);}</p>
+		<p class="answer">Undefined, так как параметр message не имеет никакого значения.</p>
+	</div>
+	<div class="pair">
+		<p class="question">Почему при выполнении указанного кода возникают ошибки?
+// (1)
+
+function person() {
+	const name = 'John';
+	const surname = 'Doe';
+}
+
+console.log(`Hello, ${name} ${surname}!`);
+
+// (2)
+
+const addThree = (num) => {
+	const number = 0;
+	number = num;
+
+	return +number + 3;
+}
+
+// (3)
+
+first(); // error
+second(); // 'Second one'
+
+const first = () => {
+	console.log('First one');
+}
+
+function second() {
+	console.log('Second one');
+}
+
+// (4)
+
+const name = 'John';
+
+(() => {
+	const surname = 'Doe';
+	console.log(`${name} ${surname}`);
+})();
+
+console.log(`${name} ${surname}`);</p>
+		<p class="answer">1. Необходимо задать параметры name, surname. 3. При Function Declaration можно вызывать функцию до её объявления - при Function Expression это невозможно. 4. Ошибки нет. </p>
+	</div>
+</body>
+</html>
